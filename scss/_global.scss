@@ -6,11 +6,16 @@ body {
 	padding-top: 54px;
 	color: $blue-gray;
 }
+
 @media (min-width: 992px) {
 	body {
 		padding-top: 0;
 		padding-left: $sidebar-base-width;
 	}
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 h1,
@@ -62,7 +67,7 @@ p.lead {
 		font-size: 2.5rem;
 		line-height: 3.5rem;
 		padding: 0.5rem;
-    margin-right: 1rem;
+		margin-right: 1rem;
 		&:last-child {
 			margin-right: 0;
 		}
