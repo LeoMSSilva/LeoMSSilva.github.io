@@ -21,7 +21,7 @@ const browserSyncReload = (done) => {
 // CSS task
 const css = () =>
 	gulp
-		.src('./src/scss/**/*.scss')
+		.src('./src/scss/resume.scss')
 		.pipe(plumber())
 		.pipe(sass().on('error', sass.logError))
 		.pipe(autoprefixer())

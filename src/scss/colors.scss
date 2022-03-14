@@ -1,7 +1,3 @@
-// Variables
-
-// Restate Bootstrap Variables
-
 $white:    #e6f0ff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -15,12 +11,12 @@ $gray-900: #212529 !default;
 $black:    #000000 !default;
 
 $blue0: #e6f0ff !default;
-$blue1: #cadfff !default;
+$blue1: #b4cef5 !default;
 $blue2: #a6c9ff !default;
 $blue3: #81b3ff !default;
 $blue4: #4e95ff !default;
 $blue5: #076aff !default;
-$blue-gray: #004a94 !default;
+$blue-gray: #0d5be2 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -37,9 +33,5 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $blue0 !default;
+$light:         $blue1 !default;
 $dark:          $blue-gray !default;
-
-// Page Variables
-
-$sidebar-base-width: 17rem;

@@ -1,16 +1,14 @@
-// Global styling for this template
-
 body {
 	@include body-font;
-  background-color: $blue0;
+  background-color: $light;
 	padding-top: 54px;
-	color: $blue-gray;
+	color: $dark;
 }
 
 @media (min-width: 992px) {
 	body {
 		padding-top: 0;
-		padding-left: $sidebar-base-width;
+		padding-left: 17rem
 	}
 }
 
@@ -27,7 +25,7 @@ h6 {
 	@include heading-font;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: $blue5;
+	color: $primary;
 }
 
 h1 {
@@ -61,7 +59,7 @@ p.lead {
 		height: 3.5rem;
 		width: 3.5rem;
 		background-color: $secondary;
-		color: $blue0 !important;
+		color: $light !important;
 		border-radius: 100%;
 		text-align: center;
 		font-size: 2.5rem;
