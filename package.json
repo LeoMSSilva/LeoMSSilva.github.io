@@ -16,6 +16,6 @@
 		"gulp-plumber": "^1.2.1",
 		"gulp-rename": "2.0.0",
 		"gulp-sass": "5.1.0",
-		"sass": "^1.49.10"
+		"sass": "^1.68.0"
 	}
 }
